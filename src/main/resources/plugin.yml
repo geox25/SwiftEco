@@ -1,0 +1,34 @@
+name: SwiftEco
+version: '${project.version}'
+main: me.geox25.swifteco.SwiftEco
+api-version: 1.19
+authors: [geox25]
+description: Advanced Banking and Economy System
+depend: [Vault]
+loadbefore: [Stonks]
+
+commands:
+  swift:
+    description: Base plugin command
+    permission: swift.base
+    permission-message: Invalid Authorization
+    aliases: [sw]
+permissions:
+  swift.base:
+    description: Allows /swift
+  swift.admin:
+    description: System Admin
+    children:
+      swift.base: true
+      swift.reload: true
+      swift.id: true
+      swift.note: true
+      swift.info: true
+  swift.reload:
+    description: Allows /swift reload
+  swift.id:
+    description: Allows /swift checkid, /swift removeid, and /swift addid
+  swift.note:
+    description: Allows /swift note and redeeming notes
+  swift.info:
+    description: Allows /swift info on other people

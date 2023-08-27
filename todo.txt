@@ -1,0 +1,22 @@
+CODING STYLE:
+- Code sections separated by 1 line when appropriate to avoid ugly blocks
+- Build features in, check elsewhere if necessary for system/usage consistency
+- Comments for important variables and lines for easier reading
+
+Legend:
++ = New Addition
+- = Removed
+* = Fixed
+% = WIP
+
+-----------------
+
+% Switch to UUID's
+    STABILIZE FOR BEDROCK
+    MAKE SURE .'s WORK FOR SUB-ACCOUNTS
+% Fix player & managers inconsistencies
+
+
+
+% Bug Fixes & Code Cleanup
+% Think about how GUI's should be approached in the future

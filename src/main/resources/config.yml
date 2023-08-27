@@ -1,0 +1,35 @@
+# Administrators
+# (Can manage gov account & access to admin cmds)
+admins: []
+
+# This is the amount all players start with in their /swift bal
+# Default = 200
+startBalance: 200
+
+# This is the maximum amount an account can borrow if it has a perfect credit score of 1,000
+# Default = 3500
+creditCeiling: 3500
+
+# The % that savings accounts get taxed
+# Default = 3
+savingsTaxRate: 3
+
+# The % that checking (normal) accounts get taxed
+# Default = 5
+checkingTaxRate: 5
+
+# The % of loan payoffs that gets added to your credit score
+# Default = 1
+creditWeight: 1
+
+# The default account that interest comes from
+# Default = gov
+interestAccount: gov
+
+# The default account that loans come from
+# Default = gov (set to an actual bank)
+lendingAccount: gov
+
+# The % that transfers from an IRA account get penalized
+# Default = 10
+iraPenalty: 10
